@@ -11,7 +11,6 @@ body {
 .caja {
     width: 200px;
     height: 200px;
-    position: absolute;
 }
 
 #rosa {
@@ -20,18 +19,15 @@ body {
 
 #azul {
     background-color: #2B7DB9;
-    right: 0;
-    top: 0;
+    position: absolute;
+    top: 200px;
+    left: 200px;
 }
 
 #verde {
-    left: 0;
-    bottom: 0;
     background-color: #B7D84B;
 }
 
 #amarillo {
     background-color: #FAFF16;
-    right: 0;
-    bottom: 0;
 }
